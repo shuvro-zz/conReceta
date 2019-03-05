@@ -13,5 +13,6 @@
 
 Route::get('/{id?}', function ($id = null) {
     $med = App\Med::find($id);
-    return view('med',compact('id','med'));
+    $randomMeds = App\Med::orderByRaw('RAND()')->take(10)->get();
+    return view('med',compact('id','med','randomMeds'));
 })->name('med');
