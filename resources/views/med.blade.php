@@ -14,7 +14,9 @@
   <body>
     <div class="container-fluid">
       <h1>¿Con Receta?</h1>
+      @if(isset($med))
       <p>El medicamento {{$med['name']}} @if($med['presc'] == "Directa") <strong>no necesita receta médica</strong>.  @else <strong>se vende bajo {{strtolower($med['presc'])}}</strong>. @endif</p>
+      @endif
       <h2>Ver Más</h2>
       <ul>
       @foreach($randomMeds as $randomMed)
