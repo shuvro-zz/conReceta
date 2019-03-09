@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="es">
   <head>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6065944601223306",
+    enable_page_level_ads: true
+  });
+</script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50179084-1"></script>
 <script>
